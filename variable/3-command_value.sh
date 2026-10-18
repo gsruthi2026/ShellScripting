@@ -2,15 +2,15 @@
 p1=$1 #soni
 p2=$2 #pandu
 
-start_time=$(date + %r)
+start_time=$(date +%r)
 sleep 10
-end_time=$(date + %r)
+end_time=$(date +%r)
 
 total_time=$(($end_time-$start_time))
 
 
 sleep 5
-time=$(date + %r)
+time=$(date +%r)
 
 
 echo "$p1:: Hi $p2"
