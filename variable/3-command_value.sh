@@ -18,6 +18,6 @@ total_time=$(($end_time-$start_time))
 echo "$p1::  it's taken  almost $total_time"
 
 sleep 5
-time=$(date +%r)
+time=$(date +%s)
 echo "$p2:: $p1 what is the time now?"
 echo "$p1:: yes  $p2 ,it's $time  now ."
