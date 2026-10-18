@@ -6,12 +6,12 @@ echo "$p2 ::helo $p1 How are you?"
 echo "$p1:: I am good How are you ?"
 echo "$p2:: I am doing great , thanks for asking."
 
-start_time=$(date +%r)
+start_time=$(date +%s)
 echo "$p2:: $p1 At what time you started from home?"
 echo "$p1:: yeah $p2 i have started at $start_time "
 
 sleep 10
-end_time=$(date +%r)
+end_time=$(date +%s)
 echo "$p1:: And reached office at  $end_time "
 
 total_time=$(($end_time-$start_time))
